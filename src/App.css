@@ -1,1 +1,72 @@
-/* Other rules */
+.App {
+  margin-top: 50px;
+}
+
+.App > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.App > div:first-child img {
+  width: 50px;
+  margin-right: 25px;
+}
+
+.App > div:first-child p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TimeSlot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TimeSlot img {
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.TimeSlot div {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  min-width: 400px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.type {
+  margin-bottom: 5px;
+}
+
+.details {
+  font-weight: bold;
+}
+
+.duration {
+  margin-right: 50px;
+}
+
+.alert {
+  font-weight: bold;
+  color: red;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 550px;
+}
